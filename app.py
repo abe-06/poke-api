@@ -1,7 +1,6 @@
 from flask import Flask, jsonify, Response
 import requests
 import json
-import collections
 
 app = Flask(__name__)
 
@@ -55,4 +54,4 @@ def getPokemon(pokemon_name) -> list:
     })
 
 if __name__ == "__main__":
-	app.run(debug=True)
+	app.run(debug=False)
