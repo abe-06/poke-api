@@ -1,6 +1,9 @@
 # poke-api
 coding challenge pokemon
 
+# Start
+Just run python app.py on your cmd
+
 # Endpoints
 
 ## Global search
