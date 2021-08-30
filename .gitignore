@@ -1,0 +1,18 @@
+# .gitignore
+
+# Temporary files
+.#~
+*.*~
+~.#~
+/.#~
+
+# Virtual Environment
+Include/
+Lib/
+Scripts/
+
+# Installer logs
+**/*.egg-info
+
+# Cache
+__pycache__/
