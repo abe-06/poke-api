@@ -2,8 +2,9 @@
 coding challenge pokemon
 
 # Endpoints
-The first one is the global search
-It works going to the following address /pokedex/pokemon_name/limit
+
+## Global search
+It works going to the following address *'/pokedex/pokemon_name/limit'*
   
 
   Where pokemon_name can be a partial name and limit is just the number of pokemons that will appear after the first pokemon found by the pokedex
@@ -13,6 +14,6 @@ It works going to the following address /pokedex/pokemon_name/limit
 
   If there is no pokemon containing that string, then the search will return an ampty search
 
-The second one is the search by name
-It works on the address /pokedex/pokemon/pokemon_name
+## Search by name
+It works on the address *'/pokedex/pokemon/pokemon_name'*
   In this case, the pokemon_name has to be correct, or the search will return empty
